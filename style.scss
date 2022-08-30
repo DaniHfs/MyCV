@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    height: 100%;
+    overflow: hidden;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+}
+.wrapper {
+    border: whitesmoke;
+    border-radius: 8%;
+
+    background-image: url('tree.png');
+    background-repeat: no-repeat;
+    background-size: 88%;
+    background-blend-mode: soft-light;
+    
+    background-color: rgba(217,227,234, 0.8);
+
+    text-align: center;
+    width: 75%;
+    height: 925px;
+
+    position: relative;
+    left: 240px;
+}
+
+.about {
+    position: relative;
+    left: 45px;
+    top: 35px;
+
+    width: 450px;
+    overflow-wrap: break-word;
+
+    border: 1px #BDEFFF;
+    border-radius: 8%;
+
+    background-color: rgb(203, 224, 235, 0.85);
+    
+}
+
+.about > p {
+    text-align: left;
+}
+
+.experience {
+    position: relative;
+    left: 45px;
+    top: 35px;
+
+    width: 450px;
+    overflow-wrap: break-word;
+
+    border: 1px #BDEFFF;
+    border-radius: 5%;
+    background-color: rgb(203, 224, 235, 0.85);
+}
+
+.experience > p {
+    text-align: left;
+}
+
+.skills {
+    position: relative;
+    top: -474px;
+    left: 932px;
+
+    width: 450px;
+
+    border: 1px #BDEFFF;
+    border-radius: 5%;
+    background-color: rgb(203, 224, 235, 0.85);
+}
+
+.skills > ul {
+    text-align: left;
+}
+
+.education {
+    position: relative;
+    top: -474px;
+    left: 932px;
+
+    width: 450px;
+    overflow-wrap: break-word;
+
+    border: 1px #BDEFFF;
+    border-radius: 5%;
+    background-color: rgb(203, 224, 235, 0.85);
+}
+
+.education > p {
+    text-align: left;
+}
+
+.contact {
+    position: relative;
+    left: 45px;
+    top: -827px;
+
+    width: 450px;
+    height: 300px;
+
+    border: 1px #BDEFFF;
+    border-radius: 5%;
+    background-color: rgb(203, 224, 235, 0.85);
+}
+
+.contact > p {
+    text-align: left;
+}
+
+.image {
+    height: 240px;
+    width: 240px;
+    float: left;
+}
+
+img {
+    width: auto;
+    max-height: 100%;
+
+    border-radius: 40%;
+
+    display: inline-block;
+}
